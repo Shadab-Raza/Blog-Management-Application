@@ -1,7 +1,7 @@
 {
-  "name": "mini_blogging_site",
+  "name": "Blog-Management-Application",
   "version": "1.0.0",
-  "description": "Repository for backend cohort - Radon",
+  "description": "Creating Blog Management Application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohit891276/Mini_Blogging_Site.git"
+    "url": "git+https://github.com/Shadab-Raza/Blog-Management-Application.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Md Shadab Raza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohit891276/Mini_Blogging_Site/issues"
+    "url": "https://github.com/Shadab-Raza/Blog-Management-Application.git"
   },
-  "homepage": "https://github.com/rohit891276/Mini_Blogging_Site#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
