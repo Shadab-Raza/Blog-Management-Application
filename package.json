@@ -1,7 +1,7 @@
 {
-  "name": "Blog-Management-Application",
+  "name": "blog_management_application",
   "version": "1.0.0",
-  "description": "Creating Blog Management Application",
+  "description": "Creating blog_management_application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
