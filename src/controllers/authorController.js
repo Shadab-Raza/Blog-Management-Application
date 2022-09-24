@@ -28,6 +28,7 @@ const createAuthor = async function (req, res) {
 
     if (!authorData.title)
       return res.status(400).send({ status: false, msg: 'title required' });
+
     if (authorData.title != 'Mr' && authorData.title != 'Mrs' && authorData.title != 'Miss')
       return res.status(400).send({ status: false, msg: 'enter valid title' });
 
@@ -37,6 +38,7 @@ const createAuthor = async function (req, res) {
     if (!mailRegex.test(authorData.email)) {
       return res.status(400).send({ msg: 'Please enter valid mailId' });
     }
+    
     if (email)
       return res.status(400).send({ status: false, msg: 'email already taken' });
 

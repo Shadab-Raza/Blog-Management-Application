@@ -115,6 +115,7 @@ const deleteByParams = async function (req, res) {
       return res.status(404).send({ status: false, msg: 'This blog is not found or deleted.' });
     }
     allBlogs.isDeleted = true;
+    allBlogs.deletdAt = Date.now();
     const updated = await BlogModel.findByIdAndUpdate({ _id: id }, allBlogs, { new: true });
     res.status(200).send({ status: true, msg: 'Successfully Deleted' });
 

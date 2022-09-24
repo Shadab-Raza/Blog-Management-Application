@@ -1,8 +1,4 @@
-# Mini_Blogging_Site
-
-# Radon
-
-Repository for backend cohort - Radon
+# Blog_Management_Application
 
 ## Blogging Site Mini Project Requirement
 
